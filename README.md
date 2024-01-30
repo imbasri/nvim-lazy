@@ -6,11 +6,11 @@
 ![Lua](https://img.shields.io/badge/lua-%233C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 
 <p align="center">
-  <a href="https://github.com/pojokcodeid/nvim-lazy/pulse">
-    <img src="https://img.shields.io/github/last-commit/pojokcodeid/nvim-lazy?style=for-the-badge&logo=github&color=8dc4e4&logoColor=D9E0EE&labelColor=302D41"/>
+  <a href="https://github.com/imbasri/nvim-lazy/pulse">
+    <img src="https://img.shields.io/github/last-commit/imbasri/nvim-lazy?style=for-the-badge&logo=github&color=8dc4e4&logoColor=D9E0EE&labelColor=302D41"/>
   </a>
   <a href="https://github.com/imbasri/nvim-lazy">
-      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/pojokcodeid/nvim-lazy?color=%24DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41" />
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/imbasri/nvim-lazy?color=%24DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41" />
     </a>
 </p>
 </div>
