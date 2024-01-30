@@ -1,6 +1,6 @@
 <div align="center">
 
-#💤 LazyVim
+💤 LazyVim
 
 ![Neovim](https://img.shields.io/badge/NeoVim-%2358A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 ![Lua](https://img.shields.io/badge/lua-%233C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
@@ -29,7 +29,9 @@
 6. Ripgrep https://github.com/BurntSushi/ripgrep
 7. Lazygit https://github.com/jesseduffield/lazygit
 8. Nerd Font https://github.com/ryanoasis/nerd-fonts
+
 9. Windows Terminal (Windows) https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-id&gl=id
+
 10.Powershell (windows) https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D?hl=en-id&gl=id
 
 # Windows
@@ -45,4 +47,5 @@ nvim
 ```
 bash
 git clone https://github.com/imbasri/nvim-lazy.git ~/.config/nvim
+nvim
 ```
