@@ -12,3 +12,9 @@ vim.keymap.set("i", "jj", "<ESC>", { silent = true })
 --automatically comment with neogen
 local opts = { noremap = true, silent = true, }
 vim.api.nvim_set_keymap("n", "<Leader>nf", ":lua require('neogen').generate()<CR>", opts)
+
+-- Autocommands
+vim.api.nvim_create_augroup("custom_buffer", { clear = true })
+
+-- Select all
+vim.keymap.set("n", "==", "gg<S-v>G")
