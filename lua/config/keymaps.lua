@@ -8,7 +8,6 @@ vim.keymap.set("i", "jj", "<ESC>", { silent = true })
 --     require("telescope.builtin").resume,
 --     { noremap = true, silent = true, desc = "Resume" }
 -- )
---
 --automatically comment with neogen
 local opts = { noremap = true, silent = true, }
 vim.api.nvim_set_keymap("n", "<Leader>nf", ":lua require('neogen').generate()<CR>", opts)
