@@ -34,8 +34,12 @@ opt.signcolumn = "yes"
 opt.smartcase = true
 opt.ignorecase = true
 opt.smartindent = true
+opt.smarttab = true
 opt.virtualedit = "block" -- new
 opt.shortmess:append({ W = true, I = true, c = true, C = true })
+opt.backspace = { "start", "eol", "indent" }
+opt.wildignore:append({ "*/node_modules/*" })
+opt.mouse = "a"
 -- opt.list = true -- new
 opt.fillchars = {
     eob = " ",
@@ -50,14 +54,13 @@ opt.foldcolumn = "auto"
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
 -- status
-opt.laststatus = 0 -- 3
+opt.laststatus = 2 -- 3
 opt.showcmd = true
 opt.showmode = false
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
 -- opt.cursorlineopt = require("mvim.config").transparent and "number" or "number,line"
 -- indent opt.expandtab = true
-opt.smartindent = true -- new
 opt.shiftround = true
 opt.shiftwidth = 2
 opt.tabstop = 2 -- new
@@ -76,7 +79,6 @@ opt.undofile = true
 vim.scriptencoding = "utf-8"
 opt.encoding = "utf-8"
 opt.fileencodings = { "utf-8", "gbk", "gb2312" }
-opt.termencoding = "utf-8"
 
 if vim.fn.has("nvim-0.10") == 1 then
   opt.smoothscroll = true
