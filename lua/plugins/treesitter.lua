@@ -17,8 +17,6 @@ return {
         "tsx",
         "typescript",
         "vim",
-        "yaml",
-        "svelte",
         "css",
         "scss",
       },

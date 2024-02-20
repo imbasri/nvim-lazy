@@ -17,6 +17,7 @@ require("lazy").setup({
         { import = "lazyvim.plugins.extras.lang.json" },
         -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
         -- { import = "lazyvim.plugins.extras.ui.edgy" },
+        -- { import = "lazyvim.plugins.extras.coding.codeium" },
         { import = "lazyvim.plugins.extras.vscode" },
         { import = "lazyvim.plugins.extras.util.project" },
         -- import/override with your plugins
@@ -31,7 +32,7 @@ require("lazy").setup({
         version = false, -- always use the latest git commit
         -- version = "*", -- try installing the latest stable version for plugins that support semver
     },
-    install = { colorscheme = { "catppuccin" } },
+    install = { colorscheme = { "catppuccin-mocha" } },
     checker = { enabled = true }, -- automatically check for plugin updates
     performance = {
         rtp = {
