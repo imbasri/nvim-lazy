@@ -14,7 +14,8 @@ return {
     },
     opts = {
         options = {
-          mode = "buffers", -- set to "tabs" to only show tabpages instead
+            --before editing with set to buffers
+            mode = "buffers", -- set to "tabs" to only show tabpages instead
       -- stylua: ignore
       close_command = function(n) require("mini.bufremove").delete(n, false) end,
       -- stylua: ignore

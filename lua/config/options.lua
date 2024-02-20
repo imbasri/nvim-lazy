@@ -4,6 +4,9 @@
 local opt = vim.opt
 opt.winbar = "%=%m %f"
 opt.shell = "powershell.exe"
+opt.updatetime = 300 -- faster completion
+opt.hidden = true
+vim.g.border_style = "rounded"
 -- set shell=powershell.exe  set terminal default
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
@@ -39,7 +42,8 @@ opt.virtualedit = "block" -- new
 opt.shortmess:append({ W = true, I = true, c = true, C = true })
 opt.backspace = { "start", "eol", "indent" }
 opt.wildignore:append({ "*/node_modules/*" })
-opt.mouse = "a"
+-- jika ingin bisa menggunakan mouse maka ubah value mouse menjadi "a"
+opt.mouse = ""
 -- opt.list = true -- new
 opt.fillchars = {
     eob = " ",
@@ -48,6 +52,7 @@ opt.fillchars = {
     foldopen = "",
     foldclose = "",
 }
+
 -- fold
 opt.foldlevel = 99
 opt.foldcolumn = "auto"
@@ -67,7 +72,6 @@ opt.tabstop = 2 -- new
 opt.pumblend = 10
 opt.pumheight = 10
 opt.winminwidth = 5 -- new
--- opt.number = true
 opt.relativenumber = true
 opt.number = true
 -- time
@@ -79,6 +83,10 @@ opt.undofile = true
 vim.scriptencoding = "utf-8"
 opt.encoding = "utf-8"
 opt.fileencodings = { "utf-8", "gbk", "gb2312" }
+
+
+opt.spell = false -- disable spell checking
+opt.spelllang = "en" -- language for spell checking
 
 if vim.fn.has("nvim-0.10") == 1 then
   opt.smoothscroll = true
