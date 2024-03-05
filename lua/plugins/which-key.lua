@@ -21,6 +21,7 @@ return {
       ["<leader>w"] = { name = "+windows" },
       ["<leader>x"] = { name = "+diagnostics/quickfix" },
       ["<leader>n"] = { name = "+multi-comments" },
+      ["<leader>r"] = { name = "+rename nih?" },
     },
   },
   config = function(_, opts)

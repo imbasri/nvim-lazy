@@ -54,3 +54,8 @@ map("n", "mn", bm.bookmark_next, { desc = "Next Mark" }) -- jump to next mark in
 map("n", "mp", bm.bookmark_prev, { desc = "Previous Mark" }) -- jump to previous mark in local buffer
 map("n", "ml", bm.bookmark_list, { desc = "Show Mark List" }) -- show marked file list in quickfix window
 map("n", "mi", bm.bookmark_ann, { desc = "Bookmark @w=warn|@n=note|@t=todo|@f=fix" }) -- add or edit mark annotation at current line
+
+-- Rename in file
+vim.keymap.set("n", "<leader>rn", function()
+  return ":IncRename " .. vim.fn.expand("<cword>")
+end, { expr = true })
